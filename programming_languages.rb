@@ -7,10 +7,7 @@ def reformat_languages(languages)
       temp = {}
       temp[:type] = language_values[:type]
       temp[:style] = style
-      result[language.to_sym] = {
-                                    type: #{language_values[:type]},
-                                    style: #{style}
-      }
+      result[language.to_sym] = temp
       
     end
   end
