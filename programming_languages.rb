@@ -3,6 +3,6 @@ def reformat_languages(languages)
   
   
   languages.each do |key, val|
-    result[key.to_sym]
+    result[key.to_sym] = {}
   end
 end
