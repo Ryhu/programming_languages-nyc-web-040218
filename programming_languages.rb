@@ -6,7 +6,7 @@ def reformat_languages(languages)
     style_values.each do |language, language_values|
       temp = {}
       temp[:type] = language_values[:type]
-      temp[:style] = 
+      temp[:style] = style
       result[language.to_sym] = {
                                     type: #{language_values[:type]},
                                     style: #{style}
